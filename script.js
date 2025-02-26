@@ -19,7 +19,7 @@ function Employee(name, age, jobTitle) {
 Employee.prototype=Object.create(Person.prototype)
 Employee.prototype.constructor=Employee
 Employee.prototype.jobGreet=function(){
-		return console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)
+		
 		return console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`)
 
 }
